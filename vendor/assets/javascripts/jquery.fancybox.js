@@ -1784,7 +1784,7 @@
 			var width = '100%', offsetWidth;
 
 			// Reset width/height so it will not mess
-			this.overlay.width(width).height('100%');
+			//this.overlay.width(width).height('100%');
 
 			// jQuery does not return reliable result for IE
 			if (IE) {
