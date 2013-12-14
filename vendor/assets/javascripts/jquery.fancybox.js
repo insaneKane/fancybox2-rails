@@ -1751,7 +1751,7 @@
 				});
 			}
 
-			this.overlay.css( opts.css ).show();
+			this.overlay.css( opts.css ).fadeIn();
 		},
 
 		close : function() {
