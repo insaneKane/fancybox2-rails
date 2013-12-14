@@ -1770,7 +1770,7 @@
 				W.scrollTop( scrollV ).scrollLeft( scrollH );
 			}
 
-			$('.fancybox-overlay').remove().hide();
+			$('.fancybox-overlay').remove().fadeOut();
 
 			$.extend(this, {
 				overlay : null,
